@@ -1,57 +1,38 @@
-
-#gameDiv{
-    font-family: 'Brush Script MT', cursive;
-    border: 3px solid;
-    border-radius: 25px;
-    padding: 10px;
-    background-color: lightgrey;
-    text-align: center;
-}
-#playerText{
-    color: blue;
-}
-#computerText{
-    color: red;
-}
-
-
-
-
 body {
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  #game-container {
-    text-align: center;
-    font-family: 'Brush Script MT', cursive;
-    border: 3px solid;
-    border-radius: 25px;
-    padding: 80px;
-    background-color: lightgrey;
-    text-align: center;
-  }
-  
-  button {
-    line-height: 30px;
-    width: 100px;
-    
-  }
-  
- #player-score, #computer-score, #result {
-    font-size: 24px;
-    margin-top: 20px;
-    font-weight: bold;
-    color: blue;
-  }
-  
-  p {
-    font-size: 24px;
-    margin-top: 20px;
-    font-weight: bold;
-    color: rgb(255, 0, 0);
-  }
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#game-container {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 3px solid;
+  border-radius: 25px;
+  padding: 50px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+button {
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 30px;
+  width: 150px;
+}
+
+#result {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#playerText{
+  color: blue;
+}
+#computerText, #player2Text{
+  color: red;
+}
